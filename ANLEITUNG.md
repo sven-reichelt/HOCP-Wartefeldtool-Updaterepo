@@ -189,8 +189,8 @@ damit wir einen seltenen Fehler nachvollziehen können.
 2. Den Fehler noch einmal auslösen.
 3. *Protokoll im Explorer zeigen* — und uns die markierte Datei schicken.
 
-Das Protokoll schaltet sich nach 24 Stunden von selbst wieder ab. **Kennwörter
-und PINs stehen nicht darin**, auch nicht für uns.
+Das Protokoll schaltet sich nach 24 Stunden von selbst wieder ab. **Ihre
+Zugangsdaten stehen nicht darin**, auch nicht für uns.
 
 ---
 
