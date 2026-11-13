@@ -42,12 +42,16 @@ beginnt.
 3. **Die Anwendung prüft, ob alles durchkommt.** Das läuft von selbst an und
    endet mit einem kurzen Testanruf.
 
-   **Alle Punkte müssen grün sein.** Solange einer rot ist, bleibt die
-   Übersicht zu — sie wäre ohnehin leer. Neben jedem Punkt steht, woran es
-   liegt, und darunter finden Sie die Liste der Freigaben, die Ihre Firewall
-   braucht. Die können Sie mit einem Klick kopieren und an Ihren
+   Kommt alles durch, geht es von selbst weiter. Bleibt ein Punkt rot,
+   bleibt die Übersicht zu — sie wäre ohnehin leer. Neben jedem Punkt steht,
+   woran es liegt, und darunter finden Sie die Liste der Freigaben, die Ihre
+   Firewall braucht. Die können Sie mit einem Klick kopieren und an Ihren
    Firewall-Betreuer weitergeben. Danach **Prüfung starten** noch einmal
    drücken.
+
+   Nicht jeder rote Punkt hält Sie auf. Entscheidend ist der Testanruf —
+   kommt der durch, ist der Weg frei, auch wenn ein einzelner Punkt darüber
+   bemängelt wird.
 
 4. **Fertig.** Die Übersicht geht auf. Die Anwendung richtet sich auf Wunsch
    dauerhaft ein: Sie startet danach mit Windows und hält sich selbst aktuell.
