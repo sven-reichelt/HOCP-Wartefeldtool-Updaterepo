@@ -65,7 +65,7 @@ steht jeweils die interne Rufnummer — praktisch, wenn zwei Leute gleich heiße
 Dieselbe Erklärung steht immer unter der Tabelle. Fahren Sie mit der Maus über
 eine Zelle, sagt Ihnen ein kleiner Hinweis den ganzen Satz dazu.
 
-Oben links steht, von wann die Anzeige ist. Sie frischt sich alle fünf Minuten
+Oben links steht, von wann die Anzeige ist. Sie frischt sich alle 15 Minuten
 von selbst auf; mit **Jetzt aktualisieren** geht es sofort. Danach ist der Knopf
 eine Minute lang gesperrt — das ist Absicht und schont die Telefonanlage.
 
@@ -106,7 +106,7 @@ Sie finden sie über den kleinen Pfeil **▾** neben *Jetzt aktualisieren*.
 **Mit Windows starten** — die Anwendung ist eine Aufsicht und nützt nur, wenn
 sie läuft. Normalerweise eingeschaltet lassen.
 
-**Alle fünf Minuten von selbst aktualisieren** — hält die Anzeige frisch, ohne
+**Alle 15 Minuten von selbst aktualisieren** — hält die Anzeige frisch, ohne
 dass Sie etwas tun. Schalten Sie es aus, ist der Knopf *Jetzt aktualisieren*
 der einzige Weg zu neuen Daten.
 
