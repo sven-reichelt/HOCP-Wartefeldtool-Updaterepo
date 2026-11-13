@@ -39,8 +39,18 @@ beginnt.
    Die Prüfung dauert einen Augenblick — die Anwendung probiert den Code
    einmal an Ihrem Anschluss aus.
 
-3. **Fertig.** Die Anwendung richtet sich auf Wunsch dauerhaft ein: Sie startet
-   danach mit Windows und hält sich selbst aktuell.
+3. **Die Anwendung prüft, ob alles durchkommt.** Das läuft von selbst an und
+   endet mit einem kurzen Testanruf.
+
+   **Alle Punkte müssen grün sein.** Solange einer rot ist, bleibt die
+   Übersicht zu — sie wäre ohnehin leer. Neben jedem Punkt steht, woran es
+   liegt, und darunter finden Sie die Liste der Freigaben, die Ihre Firewall
+   braucht. Die können Sie mit einem Klick kopieren und an Ihren
+   Firewall-Betreuer weitergeben. Danach **Prüfung starten** noch einmal
+   drücken.
+
+4. **Fertig.** Die Übersicht geht auf. Die Anwendung richtet sich auf Wunsch
+   dauerhaft ein: Sie startet danach mit Windows und hält sich selbst aktuell.
 
 Den Code brauchen Sie danach nicht mehr. Heben Sie ihn trotzdem auf, falls der
 Rechner einmal neu aufgesetzt wird.
@@ -141,8 +151,9 @@ nur, an welcher Stelle es klemmt.
 **Liste kopieren** in die Zwischenablage und unverändert in eine Mail. Mehr
 braucht er nicht; dort steht genau, was freigegeben sein muss.
 
-Der Punkt **Sprachweg** wird nur geprüft, wenn Sie den Knopf dafür drücken —
-dabei findet ein kurzer Testanruf statt. Alles andere läuft ohne Nebenwirkung.
+Der Punkt **Sprachweg** wird hier nur geprüft, wenn Sie den Knopf dafür
+drücken — dabei findet ein kurzer Testanruf statt. Alles andere läuft ohne
+Nebenwirkung. Bei der Einrichtung läuft er einmal von selbst mit.
 
 ---
 
@@ -209,6 +220,15 @@ später wieder zu benutzen, brauchen Sie einen neuen Aktivierungscode von
 ho.Systeme.
 
 Bleibt etwas stehen, sagt das Fenster es Ihnen. Sprechen Sie uns dann bitte an.
+
+---
+
+## Welche Fassung läuft hier?
+
+Im Menü neben **Jetzt aktualisieren** und im Kontextmenü des Symbols neben der
+Uhr finden Sie **Über**. Dort stehen die Fassung, unsere Anschrift und wie Sie
+uns erreichen — dazu ein Knopf, der die Angaben in die Zwischenablage legt,
+nach denen wir am Telefon fragen.
 
 ---
 
