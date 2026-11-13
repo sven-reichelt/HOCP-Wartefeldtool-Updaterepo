@@ -158,6 +158,26 @@ Zwei Dinge können Sie vorher selbst versuchen:
 2. **Verbindung prüfen** (siehe oben). Rote Punkte gehören zu Ihrem
    Firewall-Betreuer, nicht zu uns.
 
+### Was die Kennzeichen bedeuten
+
+Die meisten Kennzeichen betreffen Ihr Netzwerk â€” die kÃ¶nnen Sie zusammen mit
+Ihrem Firewall-Betreuer selbst beheben. Bei allen Ã¼brigen liegt es an Ihrem
+Zugang, und dann sind wir dran.
+
+| Kennzeichen | Was dahintersteckt | Was hilft |
+|---|---|---|
+| **F-01** | Die Adressen lassen sich in Ihrem Netz nicht auflÃ¶sen | Ihr Firewall-Betreuer: NamensauflÃ¶sung (DNS) prÃ¼fen |
+| **F-02** | Das Portal ist nicht erreichbar | Internetverbindung prÃ¼fen, `TCP 443` freigeben |
+| **F-03** | Die Verbindung wird unterwegs aufgebrochen | Eine Firewall oder ein Proxy setzt eigene Zertifikate ein. DafÃ¼r braucht es eine Ausnahme â€” sonst verweigert die Anwendung die Verbindung, und das ist Absicht |
+| **F-06** | Der Port fÃ¼r die Telefonie ist gesperrt | `UDP 5080` ausgehend freigeben |
+| **F-08** | Es kommen keine Sprachdaten an | Den Bereich fÃ¼r Sprachdaten freigeben (siehe Liste unter *Verbindung prÃ¼fen*) |
+| **F-12** | Das Portal ist gerade stark beansprucht | Nichts. Die Anwendung wartet von selbst und versucht es erneut |
+| alle anderen | Etwas an Ihrem Zugang stimmt nicht mehr | Uns ansprechen und das Kennzeichen nennen. Meist genÃ¼gt ein neuer Aktivierungscode |
+
+Bei **F-04** hÃ¤lt die Anwendung die selbsttÃ¤tige Aktualisierung an und sagt
+Bescheid. Das ist kein Fehler, sondern Absicht: Ein Zugang, der abgelehnt
+wird, repariert sich nicht von selbst, und immer weiter zu versuchen wÃ¼rde ihn
+nur sperren.
 ### Erweitertes Protokoll
 
 Darum bitten wir Sie nur im Einzelfall. Es schreibt mit, was die Anwendung tut,
