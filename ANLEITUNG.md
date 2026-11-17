@@ -187,12 +187,13 @@ Zugang, und dann sind wir dran.
 | **F-06** | Der Port für die Telefonie ist gesperrt | `UDP 5080` ausgehend freigeben |
 | **F-08** | Es kommen keine Sprachdaten an | Den Bereich für Sprachdaten freigeben (siehe Liste unter *Verbindung prüfen*) |
 | **F-12** | Das Portal ist gerade stark beansprucht | Nichts. Die Anwendung wartet von selbst und versucht es erneut |
+| **F-15, F-16, F-17** | Ihre Aktivierung gilt nicht mehr | Siehe „Wenn das Wartefeldtool „außer Betrieb“ meldet“ |
 | alle anderen | Etwas an Ihrem Zugang stimmt nicht mehr | Uns ansprechen und das Kennzeichen nennen. Meist genügt ein neuer Aktivierungscode |
 
-Bei **F-04** hält die Anwendung die selbsttätige Aktualisierung an und sagt
-Bescheid. Das ist kein Fehler, sondern Absicht: Ein Zugang, der abgelehnt
-wird, repariert sich nicht von selbst, und immer weiter zu versuchen würde ihn
-nur sperren.
+Bei **F-04** wird Ihr Zugang nicht mehr angenommen, etwa weil sich das
+Kennwort geändert hat. Das Wartefeldtool meldet dann „außer Betrieb“ (siehe
+unten) und versucht es nicht immer wieder: Ein abgelehnter Zugang repariert
+sich nicht von selbst, und ständige Versuche würden ihn nur sperren.
 
 ### Erweitertes Protokoll
 
@@ -207,6 +208,40 @@ damit wir einen seltenen Fehler nachvollziehen können.
 Das Protokoll schaltet sich nach 24 Stunden von selbst wieder ab. **Ihre
 Zugangsdaten stehen nicht darin**, auch nicht für uns.
 
+
+---
+
+## Wenn Ihre Aktivierung bald abläuft
+
+Ist Ihre Aktivierung befristet, erscheint etwa zwei Wochen vor dem Ende ein
+Hinweis oben in der Übersicht und im Menü am Symbol neben der Uhr — mit dem
+Datum und unserer Adresse, einmal am Tag auch als Benachrichtigung. Das
+Wartefeldtool arbeitet bis dahin ganz normal weiter. Schreiben Sie uns einfach
+rechtzeitig an **tk-support@hosysteme.de**, wenn Sie verlängern möchten.
+
+## Wenn das Wartefeldtool „außer Betrieb“ meldet
+
+Dann steht oben in der Übersicht ein roter Hinweis, etwa:
+
+> Das Wartefeldtool ist außer Betrieb. Bitte wenden Sie sich an den Support:
+> tk-support@hosysteme.de (F-15)
+
+Solange das so ist, zeigt die Übersicht keine Wartefelder an, und es lässt
+sich niemand an- oder abmelden. Das Symbol neben der Uhr zeigt eine Warnung.
+
+1. **Schreiben Sie uns** an **tk-support@hosysteme.de** und nennen Sie das
+   Kennzeichen in der Klammer. Ein Klick auf die Adresse im Hinweis öffnet Ihr
+   Mailprogramm.
+2. **Bekommen Sie von uns einen neuen Aktivierungscode**, klicken Sie auf
+   **Neuen Aktivierungscode eingeben** (im Hinweis oder im Menü am Symbol),
+   fügen Sie den Code ein und klicken Sie auf **Aktivieren**. Danach geht es
+   sofort weiter.
+3. **Sagen wir Ihnen, dass es wieder freigegeben ist**, klicken Sie auf
+   **Erneut prüfen**. Andernfalls läuft das Wartefeldtool spätestens nach
+   etwa zwei Stunden von selbst wieder.
+
+Ihr bisheriger Aktivierungscode bleibt dabei gespeichert. Sie müssen nichts
+neu installieren.
 ---
 
 ## Vom Rechner entfernen
