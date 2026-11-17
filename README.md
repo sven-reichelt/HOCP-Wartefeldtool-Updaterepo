@@ -9,9 +9,8 @@ selbst aktualisieren können, ohne ein Zugriffstoken mitzubringen.
 
 ## Für Anwender
 
-**[➜ Anleitung zum Wartefeldtool](ANLEITUNG.md)** — mit Bildern: einrichten,
-die Übersicht lesen, an- und abmelden, Einstellungen, und was zu tun ist, wenn
-etwas klemmt.
+Die Anleitung steckt im Wartefeldtool selbst: im Menü **Hilfe und Anleitung**
+— mit Suche, Bildern passend zu Ihrer Fassung und auch ohne Internet.
 
 Sie müssen hier nichts herunterladen. Die Anwendung holt sich neue Fassungen
 von selbst und prüft sie dabei.
